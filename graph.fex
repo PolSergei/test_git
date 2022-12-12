@@ -1,0 +1,7 @@
+GRAPH FILE _edahome/catalog/systable
+HEADING CENTER
+"Graph Test"
+SUM COLCOUNT AS 'Table Column Count'
+ACROSS NAME AS 'System Tables'
+WHERE NAME LIKE 'sys%' AND TBTYPE EQ 'FMI';
+END
